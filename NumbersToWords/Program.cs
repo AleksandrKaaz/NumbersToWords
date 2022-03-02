@@ -39,7 +39,7 @@ class Program
     public static string NumbersToText(Int32 dollars, Int32 cents)
     {
         if (dollars == 0 && cents == 0) return "Zero";
-        String and = "and "; // deals with UK or US numbering
+        String and = "and "; 
         Int32[] num = new Int32[4];
         Int32 first = 0;
         Int32 u, h, t;
